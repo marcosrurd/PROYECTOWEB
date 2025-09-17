@@ -1,3 +1,20 @@
+<!--
+  index.html
+  Main HTML file for My Web Project - WEB ATELIER (UDIT)
+  Structure:
+    - Uses semantic HTML5 elements: header, main, section, footer
+    - Responsive and accessible design
+    - Linked to external CSS and JS in assets/
+    - Includes skip link for accessibility
+    - Project goals and weekly progress sections
+    - Footer with credits and links
+  Improvements:
+    - Added lang attribute for accessibility
+    - Added skip link for keyboard navigation
+    - Used container class for layout consistency
+    - Placeholder for your name in copyright
+    - Externalized CSS/JS for maintainability
+-->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -5,9 +22,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>My Web Project - WEB ATELIER (UDIT)</title>
 		<meta name="description" content="A student web project for WEB ATELIER (UDIT) course" />
+		<!-- Link to main stylesheet for styles -->
 		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body>
+		<!-- Accessibility: Skip link for keyboard users -->
 		<a href="#main" class="skip-link">Skip to main content</a>
 
 		<header>
@@ -18,6 +37,7 @@
 		</header>
 
 		<main id="main" class="container">
+			<!-- Welcome section with project introduction and goals -->
 			<section>
 				<h2>Welcome</h2>
 				<p>
@@ -34,6 +54,7 @@
 				</ul>
 			</section>
 
+			<!-- Section for tracking weekly progress with a link to commit history -->
 			<section>
 				<h2>Weekly Progress</h2>
 				<p>
@@ -55,6 +76,7 @@
 			</div>
 		</footer>
 
+		<!-- Link to main JavaScript file for interactivity (if needed) -->
 		<script src="assets/js/main.js"></script>
 	</body>
 </html>
