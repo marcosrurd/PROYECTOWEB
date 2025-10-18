@@ -31,7 +31,11 @@ h2 {
 	font-weight: 600;
 	line-height: 1.3;
 }
-h3,
+h3 {
+	font-weight: 600;
+	line-height: 3;
+	font-size: 1.4rem;
+}
 h4,
 h5,
 h6 {
@@ -162,7 +166,7 @@ nav a {
   color: #000000;
   font-weight: 500;
   transition: color 0.3s;
-   font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
 nav a:hover {
@@ -170,5 +174,27 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/*TEXTO DE ANÁLISIS */
+.analysis-text {
+  max-width: 1000px;        /* 🔹 limita el ancho del texto para que no se vea de lado a lado */
+  margin: 1.4rem auto;     /* 🔹 centra el bloque y da aire arriba y abajo */
+  line-height: 1.7;        /* 🔹 mejora la legibilidad */
+  font-size: 1rem;         /* 🔹 tamaño cómodo para leer */
+  color: #333;           /* 🔹 color de texto gris oscuro */
+  text-align: left;        /* 🔹 texto alineado a la izquierda */
+  
+}
 
+.analysis-text strong {
+  color: #000000;
+  font-weight: 600;
+}
 
+.analysis-text a {
+  color: #005999;
+  text-decoration: none;
+}
+
+.analysis-text a:hover {
+  text-decoration: underline;
+}
