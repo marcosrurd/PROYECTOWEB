@@ -17,7 +17,26 @@
   font-family:Arial, Helvetica, sans-serif; 
 }
 
-/* Efecto de escribir */
+.cover-content {
+  text-align: center;
+}
+
+.nombre {
+  position: absolute;
+  bottom: 2rem;               
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ccc;
+  opacity: 0;
+  animation: fadeInAuthor 2s 3s forwards ease-in; 
+}
+
+/* Animación nombre */
+@keyframes fadeInAuthor {
+  to { opacity: 1; }
+}
+
+/* Efecto escribir */
 @keyframes typing {
   from { width: 0; }
   to { width: 53%; }
