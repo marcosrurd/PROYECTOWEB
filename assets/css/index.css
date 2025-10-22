@@ -174,14 +174,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/*TEXTO DE ANÁLISIS */
+
 .analysis-text {
-  max-width: 1000px;        /* 🔹 limita el ancho del texto para que no se vea de lado a lado */
-  margin: 1.4rem auto;     /* 🔹 centra el bloque y da aire arriba y abajo */
-  line-height: 1.7;        /* 🔹 mejora la legibilidad */
-  font-size: 1rem;         /* 🔹 tamaño cómodo para leer */
-  color: #333;           /* 🔹 color de texto gris oscuro */
-  text-align: left;        /* 🔹 texto alineado a la izquierda */
+  max-width: 1000px;      
+  margin: 1.4rem auto;    
+  line-height: 1.7;       
+  font-size: 1rem;        
+  color: #333;           
+  text-align: left;        
   
 }
 
